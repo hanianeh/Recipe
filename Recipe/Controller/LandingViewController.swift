@@ -14,8 +14,6 @@ import Firebase
 class LandingViewController: UIViewController {
     
     
-
-    
     
     
 //    var ref: DatabaseReference! = Database.database().reference()
@@ -27,7 +25,21 @@ class LandingViewController: UIViewController {
         if let email = emailTextfieldSignin.text, let password = passwordTextfieldSignin.text {
             Auth.auth().signIn(withEmail: email , password: password ) { authResult, error in
                 if let e = error {
-                    print(e)
+                    //Creating UIAlertController and
+                    //  alert user that username or pass is not in DB
+                    let alertController = UIAlertController(
+                        title: "UNREGISTERED ACCOUNT",
+                        message: "this account is not registered in our system\nemailaddress: \(email)",
+                        preferredStyle: .alert)
+                    
+                    //the cancel action doing nothing
+                    let cancelAction = UIAlertAction(title: "OK", style: .cancel) { (_) in
+                    }
+                    
+                    alertController.addAction(cancelAction)
+                    //finally presenting the dialog box
+                    self.present(alertController, animated: true, completion: nil)
+                    
                 } else {
                     self.performSegue(withIdentifier: "signinSuccessful", sender: self)
                 }

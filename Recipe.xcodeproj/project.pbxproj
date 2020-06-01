@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		142549262481AFCB00E220EA /* NoteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 142549252481AFCB00E220EA /* NoteViewController.swift */; };
+		142549282481AFDC00E220EA /* EntryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 142549272481AFDC00E220EA /* EntryViewController.swift */; };
 		14A2A9B2247C59AC00DF0EB7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14A2A9B1247C59AC00DF0EB7 /* AppDelegate.swift */; };
 		14A2A9B4247C59AC00DF0EB7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14A2A9B3247C59AC00DF0EB7 /* SceneDelegate.swift */; };
 		14A2A9B6247C59AC00DF0EB7 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14A2A9B5247C59AC00DF0EB7 /* SignUpViewController.swift */; };
@@ -16,12 +18,14 @@
 		14A2A9C6247C5F2100DF0EB7 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 14A2A9C5247C5F2100DF0EB7 /* GoogleService-Info.plist */; };
 		14A2A9C8247C690300DF0EB7 /* RealmObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14A2A9C7247C690300DF0EB7 /* RealmObject.swift */; };
 		14A2A9CE247C712900DF0EB7 /* LandingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14A2A9CD247C712900DF0EB7 /* LandingViewController.swift */; };
-		14A2A9D0247D0EFB00DF0EB7 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14A2A9CF247D0EFB00DF0EB7 /* ProfileViewController.swift */; };
+		14A2A9D0247D0EFB00DF0EB7 /* ViewControlle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14A2A9CF247D0EFB00DF0EB7 /* ViewControlle.swift */; };
 		B2FA2E29755FAE71CC3110F4 /* Pods_Recipe.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC4BD69D72E896F29357FAA2 /* Pods_Recipe.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		01C1BD5967DE5995822066CC /* Pods-Recipe.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Recipe.debug.xcconfig"; path = "Target Support Files/Pods-Recipe/Pods-Recipe.debug.xcconfig"; sourceTree = "<group>"; };
+		142549252481AFCB00E220EA /* NoteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteViewController.swift; sourceTree = "<group>"; };
+		142549272481AFDC00E220EA /* EntryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntryViewController.swift; sourceTree = "<group>"; };
 		14A2A9AE247C59AC00DF0EB7 /* Recipe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Recipe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		14A2A9B1247C59AC00DF0EB7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		14A2A9B3247C59AC00DF0EB7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -33,7 +37,7 @@
 		14A2A9C5247C5F2100DF0EB7 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		14A2A9C7247C690300DF0EB7 /* RealmObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmObject.swift; sourceTree = "<group>"; };
 		14A2A9CD247C712900DF0EB7 /* LandingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandingViewController.swift; sourceTree = "<group>"; };
-		14A2A9CF247D0EFB00DF0EB7 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		14A2A9CF247D0EFB00DF0EB7 /* ViewControlle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControlle.swift; sourceTree = "<group>"; };
 		A1C7ACC00EF49C7D4C9F6917 /* Pods-Recipe.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Recipe.release.xcconfig"; path = "Target Support Files/Pods-Recipe/Pods-Recipe.release.xcconfig"; sourceTree = "<group>"; };
 		BC4BD69D72E896F29357FAA2 /* Pods_Recipe.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Recipe.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -96,7 +100,9 @@
 			children = (
 				14A2A9CD247C712900DF0EB7 /* LandingViewController.swift */,
 				14A2A9B5247C59AC00DF0EB7 /* SignUpViewController.swift */,
-				14A2A9CF247D0EFB00DF0EB7 /* ProfileViewController.swift */,
+				14A2A9CF247D0EFB00DF0EB7 /* ViewControlle.swift */,
+				142549252481AFCB00E220EA /* NoteViewController.swift */,
+				142549272481AFDC00E220EA /* EntryViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -251,10 +257,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				142549262481AFCB00E220EA /* NoteViewController.swift in Sources */,
 				14A2A9C8247C690300DF0EB7 /* RealmObject.swift in Sources */,
-				14A2A9D0247D0EFB00DF0EB7 /* ProfileViewController.swift in Sources */,
+				14A2A9D0247D0EFB00DF0EB7 /* ViewControlle.swift in Sources */,
 				14A2A9B6247C59AC00DF0EB7 /* SignUpViewController.swift in Sources */,
 				14A2A9B2247C59AC00DF0EB7 /* AppDelegate.swift in Sources */,
+				142549282481AFDC00E220EA /* EntryViewController.swift in Sources */,
 				14A2A9CE247C712900DF0EB7 /* LandingViewController.swift in Sources */,
 				14A2A9B4247C59AC00DF0EB7 /* SceneDelegate.swift in Sources */,
 			);
